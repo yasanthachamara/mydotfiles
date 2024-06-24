@@ -1,0 +1,17 @@
+shell = "/usr/bin/fish"
+
+import = [
+	"~/.config/alacritty/themes/catppuccin-macchiato.toml"
+]
+
+[font]
+normal = { family = "ZedMono Nerd Font Mono", style = "Regular" }
+bold = { family = "ZedMono Nerd Font Mono", style = "Bold" }
+italic = { family = "ZedMono Nerd Font Mono", style = "Italic" }
+size = 13
+
+[cursor]
+style = { shape = "Beam", blinking = "On" }
+
+[env]
+TERM = "xterm-256color"
