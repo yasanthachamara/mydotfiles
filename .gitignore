@@ -218,3 +218,4 @@ dist
 # Custom
 Security/
 Learning/
+.password-store/
