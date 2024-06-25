@@ -11,15 +11,29 @@ starship init fish | source
 # Zoxide
 zoxide init fish | source
 
+#  ███████╗██╗  ██╗██████╗  ██████╗ ██████╗ ████████╗
+#  ██╔════╝╚██╗██╔╝██╔══██╗██╔═══██╗██╔══██╗╚══██╔══╝
+#  █████╗   ╚███╔╝ ██████╔╝██║   ██║██████╔╝   ██║   
+#  ██╔══╝   ██╔██╗ ██╔═══╝ ██║   ██║██╔══██╗   ██║   
+#  ███████╗██╔╝ ██╗██║     ╚██████╔╝██║  ██║   ██║   
+#  ╚══════╝╚═╝  ╚═╝╚═╝      ╚═════╝ ╚═╝  ╚═╝   ╚═╝   
 # Use fd instead of find
 export FZF_DEFAULT_COMMAND="fd -H --strip-cwd-prefix --exclude .git"
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 export FZF_ALT_C_COMMAND="fd --type=d -H --strip-cwd-prefix --exclude .git"
 
+# GPG for headless/tty sessions
+export GPG_TTY=$(tty)
+
 # Set up fzf key bindings
 fzf --fish | source
 
-# Aliases
+#   █████╗ ██╗     ██╗ █████╗ ███████╗
+#  ██╔══██╗██║     ██║██╔══██╗██╔════╝
+#  ███████║██║     ██║███████║███████╗
+#  ██╔══██║██║     ██║██╔══██║╚════██║
+#  ██║  ██║███████╗██║██║  ██║███████║
+#  ╚═╝  ╚═╝╚══════╝╚═╝╚═╝  ╚═╝╚══════╝
 alias c="clear"
 alias cat="bat"
 alias v="nvim"
