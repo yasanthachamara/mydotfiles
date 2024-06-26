@@ -8,7 +8,7 @@ import = [
 normal = { family = "ZedMono Nerd Font Mono", style = "Regular" }
 bold = { family = "ZedMono Nerd Font Mono", style = "Bold" }
 italic = { family = "ZedMono Nerd Font Mono", style = "Italic" }
-size = 13
+size = 12
 
 [cursor]
 style = { shape = "Beam", blinking = "On" }

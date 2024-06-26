@@ -40,6 +40,7 @@ return {
 				"vimdoc",
 				"c",
 				"groovy",
+				"rasi",
 			},
 			incremental_selection = {
 				enable = true,

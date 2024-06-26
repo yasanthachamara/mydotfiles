@@ -3,6 +3,9 @@ if status is-interactive
 
     # Better shell history
     atuin init fish | source
+
+    # System details
+    neofetch
 end
 
 # Starship prompt
