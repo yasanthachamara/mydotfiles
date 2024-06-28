@@ -28,6 +28,9 @@ export FZF_ALT_C_COMMAND="fd --type=d -H --strip-cwd-prefix --exclude .git"
 # GPG for headless/tty sessions
 export GPG_TTY=$(tty)
 
+# Default terminal for Rofi
+export TERMINAL='alacritty'
+
 # Set up fzf key bindings
 fzf --fish | source
 
